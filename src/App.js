@@ -1,5 +1,9 @@
-import logo from './logo.svg';
+import logo from './pinkflozd.png';
 import './App.css';
+import React, { useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 function App() {
   return (
@@ -7,16 +11,19 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          I'm <code>pinkflozd</code>.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div class="social">
+          <a href="https://twitter.com/realpinkflozd" target="_blank">
+            <FontAwesomeIcon class="icons" icon={faTwitter} size="lg" />
+          </a>
+          <a href="https://github.com/pinkflozd" target="_blank">
+            <FontAwesomeIcon class="icons" icon={faGithub} size="lg" />
+          </a>
+          <a href="mailto:pinkflozd@gmail.com" target="_blank">
+            <FontAwesomeIcon class="icons" icon={faEnvelope} size="lg" />
+          </a>
+        </div>
       </header>
     </div>
   );
