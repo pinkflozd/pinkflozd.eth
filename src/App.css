@@ -3,10 +3,30 @@
 }
 
 .App-logo {
-  height: 20vmin;
+  max-height: 256px;
+  max-width: 60vw;
   pointer-events: none;
   border-radius: 50%;
   filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+  position: absolute;
+  display: block;
+
+}
+
+.App-logo2 {
+  max-height: 256px;
+  max-width: 60vw;
+  pointer-events: none;
+  border-radius: 50%;
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+  position: absolute;
+  display: block;
+}
+
+.App-logo2:hover {
+  visibility: hidden;
+  display: none;
+
 }
 
 code {
@@ -81,6 +101,14 @@ code {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #FAFAFA;
+}
+
+.App-log {
+position: relative;
+height:256px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .icons {

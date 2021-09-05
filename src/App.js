@@ -1,4 +1,5 @@
-import logo from './pinkflozd.png';
+import logo from './pinkflozd.jpg';
+import pudgy from './pudgy.jpg';
 import './App.css';
 import React, { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -9,7 +10,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <div className="App-log">
+          <img src={logo} className="App-logo" alt="logo" />
+          <img src={pudgy} className="App-logo2" alt="logo" />
+        </div>
         <p>
           I'm <code>pinkflozd</code>.
         </p>
