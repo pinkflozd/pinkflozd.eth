@@ -3,7 +3,7 @@ import './App.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faTwitter, faGithub, faTelegram } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faTelegram, faXTwitter } from '@fortawesome/free-brands-svg-icons'
 
 import Obfuscate from 'react-obfuscate';
 
@@ -16,7 +16,7 @@ function App() {
           <img src={logo} className="App-logo" alt="logo" />
         </div>
         <p>
-          I'm <code>pinkflozd</code>.
+          I'm Luka (<code>pinkflozd</code>)
 
         </p>
         <p class="small">
@@ -26,15 +26,15 @@ function App() {
           <i>contact me below to hire me!</i>
         </p>
         <div class="social">
-          <a href="https://twitter.com/realpinkflozd">
-            <FontAwesomeIcon class="icons" icon={faTwitter} size="lg" />
+          <a href="https://x.com/realpinkflozd">
+            <FontAwesomeIcon class="icons" icon={faXTwitter} size="lg" />
+          </a>
+          <a href="https://github.com/pinkflozd">
+            <FontAwesomeIcon class="icons" icon={faGithub} size="lg" />
           </a>
           <Obfuscate href="https://t.me/pinkflozd">
             <FontAwesomeIcon class="icons" icon={faTelegram} size="lg" />
           </Obfuscate>
-          <a href="https://github.com/pinkflozd">
-            <FontAwesomeIcon class="icons" icon={faGithub} size="lg" />
-          </a>
           <Obfuscate email="pinkflozd@gmail.com" aria-label="Email Me">
             <FontAwesomeIcon class="icons" icon={faEnvelope} size="lg" />
           </Obfuscate>
