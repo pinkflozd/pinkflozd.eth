@@ -46,6 +46,7 @@ function App() {
           Trubarjeva ulica 68, 6330 Piran, Slovenia
         </Obfuscate>
       </footer>
+
     </div>
   );
 }
