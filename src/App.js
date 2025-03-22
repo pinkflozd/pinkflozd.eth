@@ -35,7 +35,9 @@ function App() {
         </div>
       </header>
       <footer>
-        <p>Luka Karinja s.p.</p>
+        <p>Luka Karinja s.p.
+          <br></br>
+          Trubarjeva ulica 68, 6330 Piran, Slovenia</p>
       </footer>
     </div>
   );

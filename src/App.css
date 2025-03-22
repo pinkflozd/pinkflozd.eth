@@ -4,29 +4,12 @@
 
 .App-logo {
   max-height: 256px;
-  max-width: 60vw;
+  max-width: 90vw;
   pointer-events: none;
   border-radius: 50%;
   filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
   position: absolute;
   display: block;
-
-}
-
-.App-logo2 {
-  max-height: 256px;
-  max-width: 60vw;
-  pointer-events: none;
-  border-radius: 50%;
-  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
-  position: absolute;
-  display: block;
-}
-
-.App-logo2:hover {
-  visibility: hidden;
-  display: none;
-
 }
 
 code {
