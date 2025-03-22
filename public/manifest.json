@@ -1,5 +1,5 @@
 {
-  "short_name": "pinkflozd.eth",
+  "short_name": "Luka K. aka pinkflozd",
   "name": "Full Stack Developer",
   "icons": [
     {
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#212121",
-  "background_color": "#212121"
+  "theme_color": "#000000",
+  "background_color": "#000000"
 }
