@@ -1,5 +1,4 @@
 import logo from './pinkflozd.jpg';
-import pudgy from './pudgy.jpg';
 import './App.css';
 import React, { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -12,10 +11,16 @@ function App() {
       <header className="App-header">
         <div className="App-log">
           <img src={logo} className="App-logo" alt="logo" />
-          <img src={pudgy} className="App-logo2" alt="logo" />
         </div>
         <p>
           I'm <code>pinkflozd</code>.
+
+        </p>
+        <p class="small">
+          Full stack and web development pro ready to bring your ideas to life
+        </p>
+        <p class="small2">
+          <i>contact me below to hire me!</i>
         </p>
         <div class="social">
           <a href="https://twitter.com/realpinkflozd" target="_blank">
@@ -29,6 +34,9 @@ function App() {
           </a>
         </div>
       </header>
+      <footer>
+        <p>Luka Karinja s.p., Trubarjeva ulica 68, 6330 Piran, Slovenia</p>
+      </footer>
     </div>
   );
 }
