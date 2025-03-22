@@ -35,10 +35,6 @@ code {
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    -webkit-animation: none;
-    animation: none;
-  }
-  .App-logo:hover {
     -webkit-animation: breathing 5s ease-out infinite normal;
     animation: breathing 5s ease-out infinite normal;
   }

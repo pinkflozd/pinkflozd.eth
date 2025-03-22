@@ -17,7 +17,7 @@ function App() {
 
         </p>
         <p class="small">
-          Full stack and web development pro ready to bring your ideas to life
+          Full stack and web development pro ready to bring your ideas to life!
         </p>
         <p class="small2">
           <i>contact me below to hire me!</i>
@@ -35,7 +35,7 @@ function App() {
         </div>
       </header>
       <footer>
-        <p>Luka Karinja s.p., Trubarjeva ulica 68, 6330 Piran, Slovenia</p>
+        <p>Luka Karinja s.p.</p>
       </footer>
     </div>
   );
