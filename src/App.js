@@ -1,6 +1,6 @@
 import logo from './pinkflozd.jpg';
 import './App.css';
-import React, { useState } from "react";
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
