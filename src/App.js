@@ -3,7 +3,9 @@ import './App.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faGithub, faTelegram } from '@fortawesome/free-brands-svg-icons'
+
+import Obfuscate from 'react-obfuscate';
 
 function App() {
   return (
@@ -26,18 +28,24 @@ function App() {
           <a href="https://twitter.com/realpinkflozd" target="_blank">
             <FontAwesomeIcon class="icons" icon={faTwitter} size="lg" />
           </a>
+          <Obfuscate href="https://t.me/pinkflozd">
+            <FontAwesomeIcon class="icons" icon={faTelegram} size="lg" />
+          </Obfuscate>
           <a href="https://github.com/pinkflozd" target="_blank">
             <FontAwesomeIcon class="icons" icon={faGithub} size="lg" />
           </a>
-          <a href="mailto:pinkflozd@gmail.com" target="_blank">
+          <Obfuscate email="pinkflozd@gmail.com" aria-label="Email Me">
             <FontAwesomeIcon class="icons" icon={faEnvelope} size="lg" />
-          </a>
+          </Obfuscate>
         </div>
       </header>
       <footer>
-        <p>Luka Karinja s.p.
-          <br></br>
-          Trubarjeva ulica 68, 6330 Piran, Slovenia</p>
+        <Obfuscate element="p">
+          Luka Karinja s.p.
+        </Obfuscate>
+        <Obfuscate element="p">
+          Trubarjeva ulica 68, 6330 Piran, Slovenia
+        </Obfuscate>
       </footer>
     </div>
   );
