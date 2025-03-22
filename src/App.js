@@ -10,6 +10,7 @@ import Obfuscate from 'react-obfuscate';
 function App() {
   return (
     <div className="App">
+
       <header className="App-header">
         <div className="App-log">
           <img src={logo} className="App-logo" alt="logo" />
@@ -25,13 +26,13 @@ function App() {
           <i>contact me below to hire me!</i>
         </p>
         <div class="social">
-          <a href="https://twitter.com/realpinkflozd" target="_blank">
+          <a href="https://twitter.com/realpinkflozd">
             <FontAwesomeIcon class="icons" icon={faTwitter} size="lg" />
           </a>
           <Obfuscate href="https://t.me/pinkflozd">
             <FontAwesomeIcon class="icons" icon={faTelegram} size="lg" />
           </Obfuscate>
-          <a href="https://github.com/pinkflozd" target="_blank">
+          <a href="https://github.com/pinkflozd">
             <FontAwesomeIcon class="icons" icon={faGithub} size="lg" />
           </a>
           <Obfuscate email="pinkflozd@gmail.com" aria-label="Email Me">
