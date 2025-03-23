@@ -127,6 +127,7 @@ padding-top: 25px;
 .social {
   display: flex;
   align-items: stretch;
+  padding-bottom: 20px;
 }
 
 a {
