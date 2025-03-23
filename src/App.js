@@ -1,4 +1,4 @@
-import logo from './pinkflozd.jpg';
+import logo from './pinkflozd.webp';
 import './App.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
